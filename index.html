@@ -12,12 +12,11 @@
 <meta property="og:locale" content="ru_RU">
 <meta property="og:title" content="Kango — батутный парк в Астане">
 <meta property="og:description" content="Батутная арена, VR, детский лабиринт и тренировки. Калькулятор цен и бронь в WhatsApp.">
-<meta property="og:image" content="https://images.unsplash.com/photo-1751235640841-d8d1035a80f0?auto=format&amp;fit=crop&amp;w=1200&amp;h=630&amp;q=72">
+<meta property="og:image" content="https://kango-astana.vercel.app/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://images.unsplash.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap">
 <link rel="stylesheet" href="base.css">
 <link rel="stylesheet" href="styles.css">
@@ -32,7 +31,7 @@ setTimeout(function(){if(!window.__motionReady){d.classList.remove('motion');d.c
   "@type": "AmusementPark",
   "name": "Kango, батутно-развлекательный парк",
   "description": "Батутный парк в Астане: батутная арена, VR, детский лабиринт, тренировки.",
-  "image": "https://images.unsplash.com/photo-1751235640841-d8d1035a80f0?auto=format&fit=crop&w=1200&h=630&q=72",
+  "image": "https://kango-astana.vercel.app/img/og.jpg",
   "telephone": "+77761318987",
   "paymentAccepted": "Банковская карта, наличные, QR-код",
   "address": { "@type": "PostalAddress", "streetAddress": "проспект Кабанбай батыра, 62", "addressLocality": "Астана", "addressCountry": "KZ" },
@@ -87,9 +86,9 @@ setTimeout(function(){if(!window.__motionReady){d.classList.remove('motion');d.c
 
 <header class="hdr">
   <div class="container hdr-in">
-    <a class="logo" href="#top" aria-label="Kango — наверх"><svg class="logo-mark"><use href="#k-mark"/></svg><span class="logo-type">KANGO<small>батутный парк</small></span></a>
+    <a class="logo" href="#top" aria-label="Kango — наверх"><img class="logo-img" src="img/logo.png" alt="Kango" width="150" height="43"><span class="sr-only">Kango, батутный парк</span></a>
     <nav class="nav" aria-label="Основная навигация">
-      <a href="#prices">Цены</a><a href="#zones">Зоны</a><a href="#reviews">Отзывы</a><a href="#book">Бронь</a><a href="#faq">Вопросы</a>
+      <a href="#prices">Цены</a><a href="#zones">Зоны</a><a href="#gallery">Фото</a><a href="#reviews">Отзывы</a><a href="#book">Бронь</a><a href="#faq">Вопросы</a>
     </nav>
     <div class="hdr-cta">
       <p class="status hdr-status" data-hours='{"Mon":[["10:00","22:00"]],"Tue":[["10:00","22:00"]],"Wed":[["10:00","22:00"]],"Thu":[["10:00","22:00"]],"Fri":[["10:00","22:00"]],"Sat":[["10:00","22:00"]],"Sun":[["10:00","22:00"]]}'><i></i><span data-hours-text>10:00–22:00</span></p>
@@ -192,12 +191,35 @@ setTimeout(function(){if(!window.__motionReady){d.classList.remove('motion');d.c
         <h2 id="z-title" class="h2" data-split>Что есть <em>внутри</em></h2>
       </div>
       <div class="hs-track z-track">
-        <article class="zc zc-a"><div class="zc-media media"><img src="https://images.unsplash.com/photo-1751235604534-f07bf076d690?auto=format&amp;fit=crop&amp;w=800&amp;h=900&amp;q=70" alt="Ряды батутов в крытом батутном парке" width="800" height="900" loading="lazy"><span class="pill">фото для примера</span></div><div class="zc-b"><svg class="i"><use href="#z-jump"/></svg><h3>Батутная арена</h3><p>Профессиональные спортивные сетки. Сеансы на 30 минут или час.</p></div></article>
-        <article class="zc zc-b2"><div class="zc-media media"><img src="https://images.unsplash.com/photo-1751235600651-94bbbeb29567?auto=format&amp;fit=crop&amp;w=800&amp;h=900&amp;q=70" alt="Полоса препятствий с поролоновой ямой" width="800" height="900" loading="lazy"><span class="pill">фото для примера</span></div><div class="zc-b"><svg class="i"><use href="#z-pillow"/></svg><h3>Большая подушка и паркур</h3><p>«Есть большая подушка, на которую надо прыгать, делать сальто, и есть паркур», — пишет гость в 2ГИС.</p></div></article>
+        <article class="zc zc-a"><div class="zc-media media"><img src="img/arena.jpg" alt="Батутная арена Kango: ряды батутов и разметка" width="800" height="900" loading="lazy"><span class="pill">фото: 2ГИС</span></div><div class="zc-b"><svg class="i"><use href="#z-jump"/></svg><h3>Батутная арена</h3><p>Профессиональные спортивные сетки. Сеансы на 30 минут или час.</p></div></article>
+        <article class="zc zc-b2"><div class="zc-media media"><img src="img/pit.jpg" alt="Яма с поролоновыми кубиками и препятствия в Kango" width="800" height="900" loading="lazy"><span class="pill">фото: 2ГИС</span></div><div class="zc-b"><svg class="i"><use href="#z-pillow"/></svg><h3>Большая подушка и паркур</h3><p>«Есть большая подушка, на которую надо прыгать, делать сальто, и есть паркур», — пишет гость в 2ГИС.</p></div></article>
         <article class="zc zc-c"><div class="zc-media media zc-grad"><svg class="zc-big"><use href="#z-vr"/></svg></div><div class="zc-b"><svg class="i"><use href="#z-vr"/></svg><h3>VR</h3><p>30 минут или час. Цены в калькуляторе выше.</p></div></article>
-        <article class="zc zc-d"><div class="zc-media media zc-grad zc-grad2"><svg class="zc-big"><use href="#z-maze"/></svg></div><div class="zc-b"><svg class="i"><use href="#z-maze"/></svg><h3>Детский лабиринт</h3><p>«Раньше тут было скалолазание, но вместо него открыли лабиринт, он тоже классный», — гость в 2ГИС.</p></div></article>
-        <article class="zc zc-e"><div class="zc-media media"><img src="https://images.unsplash.com/photo-1784456792490-70850781fbc6?auto=format&amp;fit=crop&amp;w=800&amp;h=900&amp;q=70" alt="Размытый ребёнок высоко подпрыгивает на батуте" width="800" height="900" loading="lazy"><span class="pill">фото для примера</span></div><div class="zc-b"><svg class="i"><use href="#z-train"/></svg><h3>Тренировки</h3><p>Персональные и групповые. В прайсе: 7 000 ₸ за 30 минут, 9 000 ₸ за час, группа 15 600 ₸ за час.</p></div></article>
-        <article class="zc zc-f"><div class="zc-media media zc-grad zc-grad3"><svg class="zc-big"><use href="#z-cake"/></svg></div><div class="zc-b"><svg class="i"><use href="#z-cake"/></svg><h3>Дни рождения</h3><p>Гости пишут про тренера, VR, отдельную комнату и фотографа. Условия и цены уточняйте у администратора.</p></div></article>
+        <article class="zc zc-d"><div class="zc-media media"><img src="img/nets.jpg" alt="Сетчатый лабиринт с мягкими площадками" width="800" height="450" loading="lazy"><span class="pill">фото: 2ГИС</span></div><div class="zc-b"><svg class="i"><use href="#z-maze"/></svg><h3>Детский лабиринт</h3><p>«Раньше тут было скалолазание, но вместо него открыли лабиринт, он тоже классный», — гость в 2ГИС.</p></div></article>
+        <article class="zc zc-e"><div class="zc-media media"><img src="img/hall.jpg" alt="Зал с батутами в Kango" width="800" height="900" loading="lazy"><span class="pill">фото: 2ГИС</span></div><div class="zc-b"><svg class="i"><use href="#z-train"/></svg><h3>Тренировки</h3><p>Персональные и групповые. В прайсе: 7 000 ₸ за 30 минут, 9 000 ₸ за час, группа 15 600 ₸ за час.</p></div></article>
+        <article class="zc zc-f"><div class="zc-media media"><img src="img/soft.jpg" alt="Яркая детская зона с мягкими бортиками" width="800" height="600" loading="lazy"><span class="pill">фото: 2ГИС</span></div><div class="zc-b"><svg class="i"><use href="#z-cake"/></svg><h3>Дни рождения</h3><p>Гости пишут про тренера, VR, отдельную комнату и фотографа. Условия и цены уточняйте у администратора.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gal section" id="gallery" aria-labelledby="g-title">
+    <div class="container">
+      <div class="sec-head">
+        <p class="eyebrow" data-reveal>Фото · 2ГИС</p>
+        <h2 id="g-title" class="h2" data-split>Как там <em>на самом деле</em></h2>
+        <p class="lead" data-reveal>Снимки из карточки Kango в 2ГИС, их загрузили гости и сам парк. Нажмите, чтобы рассмотреть.</p>
+      </div>
+      <div class="gal-grid" data-stagger>
+        <figure class="g g-w"><img src="img/arena2.jpg" alt="Батутные дорожки и мягкие маты в Kango" width="700" height="933" loading="lazy"></figure>
+        <figure class="g"><img src="img/foam.jpg" alt="Подвесные цилиндры над ямой с кубиками" width="1400" height="788" loading="lazy"></figure>
+        <figure class="g"><img src="img/wall.jpg" alt="Скалодром с цветными зацепами" width="1400" height="1047" loading="lazy"></figure>
+        <figure class="g g-t"><img src="img/floor.jpg" alt="Батут и мягкие маты крупным планом" width="700" height="933" loading="lazy"></figure>
+        <figure class="g"><img src="img/corridor.jpg" alt="Коридор вдоль батутного зала" width="1400" height="1050" loading="lazy"></figure>
+        <figure class="g"><img src="img/play.jpg" alt="Игровой лабиринт с горками" width="1400" height="1050" loading="lazy"></figure>
+        <figure class="g"><img src="img/soft2.jpg" alt="Мягкая игровая зона для малышей" width="1400" height="1050" loading="lazy"></figure>
+        <figure class="g"><img src="img/big.jpg" alt="Большой батутный зал с панорамными окнами" width="1400" height="788" loading="lazy"></figure>
+        <figure class="g"><img src="img/arena.jpg" alt="Батутная арена с жёлтой разметкой" width="1400" height="788" loading="lazy"></figure>
+        <figure class="g"><img src="img/pit.jpg" alt="Яма с поролоновыми кубиками и препятствиями" width="1400" height="796" loading="lazy"></figure>
       </div>
     </div>
   </section>
@@ -279,9 +301,9 @@ setTimeout(function(){if(!window.__motionReady){d.classList.remove('motion');d.c
 <footer class="ftr">
   <div class="ftr-word" aria-hidden="true" data-slide="6">KANGO</div>
   <div class="container ftr-in">
-    <a class="logo" href="#top" aria-label="Наверх"><svg class="logo-mark"><use href="#k-mark"/></svg><span class="logo-type">KANGO<small>батутный парк</small></span></a>
+    <a class="logo" href="#top" aria-label="Наверх"><img class="logo-img" src="img/logo.png" alt="Kango" width="150" height="43"><span class="sr-only">Kango, батутный парк</span></a>
     <p>Кабанбай батыра, 62<br>+7 776 131 89 87</p>
-    <p class="concept">Концепт сайта · не официальный ресурс компании. Данные и прайс — из 2ГИС; фото — Unsplash, для примера. © <span data-year>2026</span></p>
+    <p class="concept">Концепт сайта · не официальный ресурс компании. Данные, прайс и фото — из 2ГИС (фото загрузили пользователи и парк), логотип — с вывески. © <span data-year>2026</span></p>
   </div>
 </footer>
 
